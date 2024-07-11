@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup Page</title>
+    <style>
+        body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+   background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cancelbtn {
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: left;
+    margin: 4px 0 12px 0;
+}
+
+img.avatar {
+    width: 95%;
+    border-radius: 50%;
+}
+
+.container2 {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 16px;
+}
+.login-footer p a {
+    color: #4CAF50;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="imgcontainer">
+        <img src="images/The Magic Pages logo.png" alt="Avatar" class="avatar">
+    </div>
+	<h1>Sign Up</h1>
+	
+	<form>
+		<label for="Name"><b>Full Name</b></label>
+		<input type="text" placeholder="Enter Full Name" name="Name" required>
+		<label for="Email"><b>Email Address</b></label>
+		<input type="text" placeholder="Enter Email Address" name="Email" required>
+		
+		<label for="password"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="password" required>
+		
+		<label for="password"><b>Confirm Password</b></label>
+		<input type="password" placeholder=" Confirm Password" name="password" required>
+		
+		<button type="submit">Sign Up</button>
+		<div class="login-footer">
+            <p>Already have an account? <a href="login.html">Login</a> here</p>
+            </div>
+		
+		
+	</form>
+</div>
+
+
+</body>
+</html>
